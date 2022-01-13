@@ -41,7 +41,10 @@ h5 {
 }
 
 nav {
-    
+   
+    position: sticky;
+    top: 2em;
+    background: white;
     border-top: thin solid;
     border-bottom: thin solid;
  
@@ -90,7 +93,8 @@ margin-right: 8%;
 
 .bottom {
     display: grid;
-    grid-template-columns:  repeat(2, 1fr);
+    grid-template-columns: repeat(2, 1fr);
+   
  
 
 
